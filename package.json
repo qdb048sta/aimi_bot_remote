@@ -1,0 +1,38 @@
+{
+  "name": "discord-twitter-bot",
+  "version": "2.0.0",
+  "description": "A discord bot that sends messages to a channel whenever a specific user tweets.",
+  "main": "main.js",
+  "scripts": {
+    "lint": "xo",
+		"lint:fix": "xo --fix",
+		"lint:check": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastashake08/discord-twitter-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "twitter",
+    "bot"
+  ],
+  "author": "mastashake08",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mastashake08/discord-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/mastashake08/discord-twitter-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^8.2.0",
+    "setTimeout": "^0.4.9",
+    "twitter-v2": "^1.1.0"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  }
+}
