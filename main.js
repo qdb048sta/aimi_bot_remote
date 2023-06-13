@@ -12,7 +12,7 @@ var T = new Twit({
   // access_token_secret:  process.env.TWITTER_ACCESS_TOKEN_SECRET,
   // timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
   // strictSSL:            true,     // optional - requires SSL certificates to be valid.
-  bearer_token:  process.env.BEARER_TOKEN
+  bearer_token:  'AAAAAAAAAAAAAAAAAAAAADGhoAEAAAAAzFQN0UoL1NlDeqH4FliEMWf9KOU%3DkVTKDtZ85WWnXtwMNfc4X7NiQpxqqSlOu8Qqeu3AIWkFqco9tn'
 })
 
 //   //only show owner tweets
